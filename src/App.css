@@ -1,0 +1,108 @@
+body {
+  background:lightyellow;
+}
+
+.intro {
+  position:absolute;
+  color:skyblue;
+  top:20vw;
+  left:25vh;
+  font-size:3em;
+}
+.btns button {
+  border-radius:10%;
+  background:lightgreen;
+  width:100px;
+  height:40px;
+}
+
+
+.newWrite {
+  position:absolute;
+  right:100px;
+  top:50px;
+}
+.thread {
+  display:flex;
+}
+.thread > div {
+    flex-grow: 0;
+    border: 1px solid gray;
+    padding:10px;
+    width:54px;
+    align-items:center;
+    overflow:hidden;
+}
+.thread > div:nth-child(2) {
+    flex-grow: 0;
+    width:80px;
+    overflow:hidden;
+}
+.thread > div:nth-child(3) {
+    flex-grow: 1;
+    padding: 10px;
+    overflow:hidden;
+    cursor:pointer;
+}
+.thread > div:nth-child(4) {
+    flex-grow: 0;
+    width:100px;
+    overflow:hidden;
+    align-items:flex-end;
+}
+.thread > div:nth-child(5) {
+    flex-grow: 0;
+    width:50px;
+    overflow:hidden;
+    align-items:flex-end;
+}
+.menubar{
+  display:flex;
+  background:lightgray;
+}
+.menubar > div {
+    flex-grow: 0;
+    border: 1px solid gray;
+    padding: 10px;
+    align-items:center;
+    overflow:hidden;
+}
+.menubar > div:nth-child(2) {
+    flex-grow: 0;
+    width:80px;
+    overflow:hidden;
+}
+.menubar > div:nth-child(3) {
+    flex-grow: 1;
+    padding: 10px;
+    overflow:hidden;
+}
+.menubar > div:nth-child(4) {
+    flex-grow: 0;
+    width:100px;
+    overflow:hidden;
+    align-items:flex-end;
+}
+.menubar > div:nth-child(5) {
+    flex-grow: 0;
+    width:50px;
+    overflow:hidden;
+    align-items:flex-end;
+}
+.addNewThread > input{
+    width: 30%;
+}
+.addNewThread > input:nth-child(2) {
+  width:10%;
+}
+
+.addNewThread textarea {
+  width: 80%;
+}
+
+.text > div{
+  
+  padding:20px;
+  background:white;
+  top:100px;
+}
